@@ -50,7 +50,7 @@ export default {
   methods: {
     updateSource: function(source) {
      
-      this.$http.get('https://newsapi.org/v1/articles?source=' + source + '&apiKey=bcc06a620c5f41bea6f9a9d1101c5a53')
+      this.$http.get('https://newsapi.org/v1/articles?source=' + source + '&apiKey=f71da1a174af443c9912c0bbe06b1f4d')
         .then(response => {
           this.articles = response.data.articles;
         });
