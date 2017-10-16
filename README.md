@@ -1,6 +1,6 @@
 # vuenews
 
-> A Vue.js project
+> A simple Vue.js project powered by newsapi.org
 
 ## Build Setup
 
